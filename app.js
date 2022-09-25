@@ -17,6 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 routerApi(app);
 
 //Catching the errors
+
 app.use(notFound);
 app.use(errorHandler);
 
