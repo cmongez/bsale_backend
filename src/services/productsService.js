@@ -12,6 +12,13 @@ class ProductsService {
       throw error;
     }
   }
+  async searchProducts(products) {
+    try {
+      return await this.knex.from('product').whereLike('name', `%${products}%`);
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = ProductsService;
