@@ -5,11 +5,13 @@ class ProductsService {
     this.knex = knex;
   }
 
-  async getProducts() {
+  async getAllProducts() {
     try {
       return await this.knex.from('product').select('*');
     } catch (error) {
-      console.log(error);
+      throw error;
     }
   }
 }
+
+module.exports = ProductsService;
