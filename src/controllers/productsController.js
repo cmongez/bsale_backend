@@ -21,4 +21,14 @@ const searchProducts = async (req, res, next) => {
   }
 };
 
-module.exports = { getAllProducts, searchProducts };
+const getProductsByCategory = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const products = await service.getProductsByCategory(id);
+    res.status(200).send(products);
+  } catch (error) {
+    next(error);
+  }
+};
+
+module.exports = { getAllProducts, searchProducts, getProductsByCategory };
