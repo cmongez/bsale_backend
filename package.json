@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/cmongez/bsale_backend/issues"
   },
-  "homepage": "https://github.com/cmongez/bsale_backend#readme"
+  "homepage": "https://github.com/cmongez/bsale_backend#readme",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1"
+  }
 }
