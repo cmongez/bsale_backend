@@ -1,4 +1,5 @@
 const express = require('express');
+const routerApi = require('./src/v1/routes/index.js');
 const app = express();
 // Environment variables
 const dotenv = require('dotenv').config();
@@ -11,6 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
+routerApi(app);
 
 // Starting the server
 
