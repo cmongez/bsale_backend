@@ -9,7 +9,11 @@ const knex = require('knex')({
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE,
   },
-  pool: { min: 0, max: 7 },
+  pool: {
+    min: 0,
+    max: 7,
+    propagateCreateError: false,
+  },
 });
 
 module.exports = knex;
