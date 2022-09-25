@@ -19,6 +19,13 @@ class ProductsService {
       throw error;
     }
   }
+  async getProductsByCategory(id) {
+    try {
+      return await this.knex.from('product').where({ category: `${id}` });
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = ProductsService;
