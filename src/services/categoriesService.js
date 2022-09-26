@@ -15,7 +15,7 @@ class CategoriesService {
 
   async searchCategories(categories) {
     try {
-      return this.knex.from('category').whereLike('name', `%${categories}%`);
+      return await this.knex.from('category').whereRaw('LOWER(name) LIKE ?', '%' + categories.toLowerCase() + '%');
     } catch (error) {
       throw error;
     }
