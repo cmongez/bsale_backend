@@ -14,7 +14,7 @@ class ProductsService {
   }
   async searchProducts(products) {
     try {
-      return await this.knex.from('product').whereLike('name', `%${products}%`);
+      return await this.knex.from('product').whereRaw('LOWER(name) LIKE ?', '%' + products.toLowerCase() + '%');
     } catch (error) {
       throw error;
     }
