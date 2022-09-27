@@ -1,6 +1,10 @@
 ## CHALLENGE BSale - Back End (API REST)
 <cemter><img src="https://i.ibb.co/cLTtjZx/bsale.png" width="70%" /></center>
 
+https://bsale-backend-cesar-mongez.herokuapp.com/v1/products
+
+
+
 ## Objetivo
 Determinar si el/la candidat@ cuenta con los conocimientos para interactuar con
 una base de datos a través de una aplicación web, implementando cliente y servidor.
@@ -13,6 +17,11 @@ Además, agregar un buscador el cual tiene que estar implementado a nivel de ser
 
 Realizado con Node.JS, Express.JS, JavaScript y MySql. 
 Desarrollado utilizando  **Node.JS**, **Express.JS**, **Knex**, **JavaScript** and **MySql**. Donde se realiza una llamada a la base de datos a través de diferentes puntos finales utilizando una solicitud HTTP de tipo **GET** para obtener la información que se solicita  desde el cliente
+
+### Deploy: 
+Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products/*
+
+
 
 ### Caracteristicas del proyecto
 
@@ -127,5 +136,11 @@ Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products/pa*
 Devuelve un array con todos las categorias que incluyan el o los caracteres ingresados como parametro `categories`.
 
 Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/categories/vodka/*
+
+# Experiencia Bsale
+Al desarollar la API REST solicitada solidifique muchos de los conocimientos que tenia sobre las buenas practicas a la hora de crear APIs asi como tambien la manera en la que deben ser estructuradas las carpetas del proyecto y los distintos tipos de programación (Orientada a objetos, estructurada etc). El primer paso realizado fue crear la estructura de carpetas y archivos necesarios que debia utilizar. Decidi hacerlo separando servicios, controladores y rutas, ademas, utilicé Knex.js como query builder.
+Cree el middleware de manejo de errores recomendado en la documentación de *Express.js* y realicé el deploy en Heroku.
+
+
 
 
