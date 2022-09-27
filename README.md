@@ -49,12 +49,83 @@ node app.js
 
 Dentro de la raiz debe renombar el archivo llamado: `.env.default` a `.env` el cual debe tener el siguiente formato:
 
+```js
+# Credenciales MySQL
+DB_Name = 
+DB_User =
+DB_Password =
+DB_Host = 
 ```
-DB_Name= 
-DB_User=
-DB_Password=
-DB_Host= 
-PORT=3010
+Debe asignar a las variables las credenciales de acceso a la Base de datos (no tengo permiso para compartir esas credenciales).
+
+## Estructura JSON
+
+Estructuras JSON que se envian como respuesta a las solicitudes recibidas en los endpoints de la API REST
+
+#### Producto
+La estructura JSON de un producto:
+
+```js
+ {
+    "id": 5,
+    "name": "ENERGETICA MR BIG",
+    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/misterbig3308256.jpg",
+    "price": 1490,
+    "discount": 20,
+    "category": 1
+  }
 ```
-Debe asignar a las variables las credenciales de acceso a la Base de datos (no tengo permiso para compartir esas credenciales.)
+#### Categoría
+La estructura JSON de una categoria
+
+```js
+{
+"id": 1,
+"name": "bebida energetica"
+}
+```
+
+## Endpoints
+Las solicitudes son exclusivamente de tipo GET, no fue solicitado la implementacion de ningún otro verbo HTTP en esta API REST.
+
+### GET: Obtener productos
+
+`/v1/products/`
+
+Devuelve un array con todos los productos en la base de datos.
+
+Ejemplo *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products*
+
+### GET: Obtener categorías
+
+`/v1/categories/`
+
+Devuelve un array con todas las categorias en la base de datos.
+
+Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/categories/*
+
+### GET: Obtener productos por categoría
+
+`/v1/products/category/:id`
+
+Devuelve un array con todos los productos que tengan el `id` solicitado como parametro en la petición.
+
+Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products/category/1*
+
+### GET: Obtener productos por nombre
+
+`/v1/products/:products`
+
+Devuelve un array con todos los productos que incluyan el o los caracteres ingresados como parametro `products`.
+
+Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products/pa*
+
+### GET: Obtener categorias por nombre
+
+`/v1/categories/:categories`
+
+Devuelve un array con todos las categorias que incluyan el o los caracteres ingresados como parametro `categories`.
+
+Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/categories/vodka/*
+
 
