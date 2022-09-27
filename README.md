@@ -45,7 +45,7 @@ node app.js
 | knex           | [Ir a NPM](https://www.npmjs.com/package/knex) |
 | Mysql             | [Ir a NPM](https://www.npmjs.com/package/mysql)    |
 
-# Variables de entorno
+## Variables de entorno
 
 Dentro de la raiz debe renombar el archivo llamado: `.env.default` a `.env` el cual debe tener el siguiente formato:
 
@@ -85,7 +85,7 @@ La estructura JSON de una categoria
 }
 ```
 
-## Endpoints
+# Endpoints
 Las solicitudes son exclusivamente de tipo GET, no fue solicitado la implementacion de ningún otro verbo HTTP en esta API REST.
 
 ### GET: Obtener productos
