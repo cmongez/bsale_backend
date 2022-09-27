@@ -1,4 +1,6 @@
 ## CHALLENGE BSale - Back End (API REST)
+<cemter><img src="https://i.ibb.co/cLTtjZx/bsale.png" width="70%" /></center>
+
 ## Objetivo
 Determinar si el/la candidat@ cuenta con los conocimientos para interactuar con
 una base de datos a través de una aplicación web, implementando cliente y servidor.
@@ -6,6 +8,21 @@ una base de datos a través de una aplicación web, implementando cliente y serv
 Construir una tienda online que despliegue productos agrupados por la categoría a la que pertenecen, generando por separado backend (API REST) y frontend (aplicación que la consuma).
 
 Además, agregar un buscador el cual tiene que estar implementado a nivel de servidor, mediante una Api Rest cuyo lenguaje y framework puede ser de libre elección. Es decir, los datos de productos deben llegar filtrados al cliente.
+
+## Servidor - API REST
+
+Realizado con Node.JS, Express.JS, JavaScript y MySql. 
+Desarrollado utilizando  **Node.JS**, **Express.JS**, **Knex**, **JavaScript** and **MySql**. Donde se realiza una llamada a la base de datos a través de diferentes puntos finales utilizando una solicitud HTTP de tipo **GET** para obtener la información que se solicita  desde el cliente
+
+### Caracteristicas del proyecto
+
+<li> Configuración de variables de entorno.</li>
+<li> Conexión a base de datos MySQL.</li>
+<li> Configuración del puerto del server.</li>
+<li> Configuración de middleware de manejo de errores y cors en el server para permitir el acceso a los recursos en nuestro servidor.</li>
+<li> Creación de los endpoints solicitados.</li>
+<li> Filtro para las rutas solicitadas.</li>
+<li> Deploy del server en Heroku</li>
 
 ## Instalación
 
@@ -40,3 +57,4 @@ DB_Host=
 PORT=3010
 ```
 Debe asignar a las variables las credenciales de acceso a la Base de datos (no tengo permiso para compartir esas credenciales.)
+
