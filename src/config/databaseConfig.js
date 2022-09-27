@@ -1,6 +1,7 @@
 const dotenv = require('dotenv');
 dotenv.config();
-
+const { attachPaginate } = require('knex-paginate');
+attachPaginate();
 const knex = require('knex')({
   client: 'mysql',
   connection: {
