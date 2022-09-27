@@ -24,6 +24,7 @@ const searchProducts = async (req, res, next) => {
 const getProductsByCategory = async (req, res, next) => {
   try {
     const { id } = req.params;
+    console.log(id);
     const products = await service.getProductsByCategory(id);
     res.status(200).send(products);
   } catch (error) {
@@ -31,4 +32,15 @@ const getProductsByCategory = async (req, res, next) => {
   }
 };
 
-module.exports = { getAllProducts, searchProducts, getProductsByCategory };
+const getProductsByPagination = async (req, res, next) => {
+  try {
+    const { page } = req.params;
+    console.log('hola', page);
+    const products = await service.getProductsByPagination(page);
+    res.status(200).send(products);
+  } catch (error) {
+    next(error);
+  }
+};
+
+module.exports = { getAllProducts, searchProducts, getProductsByCategory, getProductsByPagination };
