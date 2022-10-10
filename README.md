@@ -1,8 +1,6 @@
 ## CHALLENGE BSale - Back End (API REST)
 <cemter><img src="https://www.oscarlijo.com/blog/wp-content/uploads/2017/06/vue.png" /></center>
 
-https://bsale-backend-cesar-mongez.herokuapp.com/v1/products
-
 
 ## Prueba técnica
 Determinar los conocimiento en el manejo de componentes en Vue 2
