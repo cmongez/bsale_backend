@@ -5,7 +5,6 @@
 ## Prueba técnica
 Determinar los conocimiento en el manejo de componentes en Vue 2
 
-
 ## PaymentsApp
 
 Realizado solamente con las herramientas permitidas Vue2 y Bootstrap.
