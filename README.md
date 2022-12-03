@@ -1,7 +1,7 @@
 ## CHALLENGE BSale - Back End (API REST)
 <cemter><img src="https://i.ibb.co/cLTtjZx/bsale.png" width="70%" /></center>
 
-https://bsale-backend-cesar-mongez.herokuapp.com/v1/products
+https://bsale-backend-ic8a.onrender.com/v1/products
 
 
 
@@ -19,7 +19,7 @@ Realizado con Node.JS, Express.JS, JavaScript y MySql.
 Desarrollado utilizando  **Node.JS**, **Express.JS**, **Knex**, **JavaScript** and **MySql**. Donde se realiza una llamada a la base de datos a través de diferentes puntos finales utilizando una solicitud HTTP de tipo **GET** para obtener la información que se solicita  desde el cliente
 
 ### Deploy: 
-Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products/*
+Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/*
 
 
 
@@ -103,7 +103,7 @@ Las solicitudes son exclusivamente de tipo GET, no fue solicitado la implementac
 
 Devuelve un array con todos los productos en la base de datos.
 
-Ejemplo *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products*
+Ejemplo *https://bsale-backend-ic8a.onrender.com/v1/products*
 
 ### GET: Obtener categorías
 
@@ -111,7 +111,7 @@ Ejemplo *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products*
 
 Devuelve un array con todas las categorias en la base de datos.
 
-Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/categories/*
+Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/categories/*
 
 ### GET: Obtener productos por categoría
 
@@ -119,7 +119,7 @@ Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/categories/*
 
 Devuelve un array con todos los productos que tengan el `id` solicitado como parametro en la petición.
 
-Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products/category/1*
+Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/category/1*
 
 ### GET: Obtener productos por nombre
 
@@ -127,7 +127,7 @@ Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products/category/
 
 Devuelve un array con todos los productos que incluyan el o los caracteres ingresados como parametro `products`.
 
-Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products/pa*
+Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/pa*
 
 ### GET: Obtener categorias por nombre
 
@@ -135,7 +135,7 @@ Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products/pa*
 
 Devuelve un array con todos las categorias que incluyan el o los caracteres ingresados como parametro `categories`.
 
-Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/categories/vodka/*
+Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/categories/vodka/*
 
 ### GET: Obtener productos por paginación
 
@@ -143,7 +143,7 @@ Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/categories/vodka/*
 
 Devuelve un array con 10 productos dependiendo del parametro `page`.
 
-Ejemplo: *https://bsale-backend-cesar-mongez.herokuapp.com/v1/products/page/1*
+Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/page/1*
 
 # Experiencia Bsale
 Al desarollar la API REST solicitada solidifique muchos de los conocimientos que tenia sobre las buenas practicas a la hora de crear APIs asi como tambien la manera en la que deben ser estructuradas las carpetas del proyecto y los distintos tipos de programación (Orientada a objetos, estructurada etc). El primer paso realizado fue crear la estructura de carpetas y archivos necesarios que debia utilizar. Decidi hacerlo separando servicios, controladores y rutas, ademas, utilicé Knex.js como query builder.
