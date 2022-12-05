@@ -146,7 +146,7 @@ Devuelve un array con 10 productos dependiendo del parametro `page`.
 Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/page/1*
 
 # Experiencia Bsale
-Al desarollar la API REST solicitada solidifique muchos de los conocimientos que tenia sobre las buenas practicas a la hora de crear APIs asi como tambien la manera en la que deben ser estructuradas las carpetas del proyecto y los distintos tipos de programación (Orientada a objetos, estructurada etc). El primer paso realizado fue crear la estructura de carpetas y archivos necesarios que debia utilizar. Decidi hacerlo separando servicios, controladores y rutas, ademas, utilicé Knex.js como query builder.
+Al desarrollar la API REST solicitada solidifique muchos de los conocimientos que tenia sobre las buenas practicas a la hora de crear APIs asi como tambien la manera en la que deben ser estructuradas las carpetas del proyecto y los distintos tipos de programación (Orientada a objetos, estructurada etc). El primer paso realizado fue crear la estructura de carpetas y archivos necesarios que debia utilizar. Decidi hacerlo separando servicios, controladores y rutas, ademas, utilicé Knex.js como query builder.
 Cree el middleware de manejo de errores recomendado en la documentación de *Express.js* y realicé el deploy en Heroku.
 
 
