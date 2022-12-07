@@ -1,7 +1,7 @@
 ## CHALLENGE BSale - Back End (API REST)
 <cemter><img src="https://i.ibb.co/cLTtjZx/bsale.png" width="70%" /></center>
 
-https://bsale-backend-ic8a.onrender.com/v1/products
+https://bsalebackend-production-47f1.up.railway.app/v1/products
 
 
 
