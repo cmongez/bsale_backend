@@ -19,7 +19,7 @@ Realizado con Node.JS, Express.JS, JavaScript y MySql.
 Desarrollado utilizando  **Node.JS**, **Express.JS**, **Knex**, **JavaScript** and **MySql**. Donde se realiza una llamada a la base de datos a través de diferentes puntos finales utilizando una solicitud HTTP de tipo **GET** para obtener la información que se solicita  desde el cliente
 
 ### Deploy: 
-Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/*
+Ejemplo: *https://bsalebackend-production-47f1.up.railway.app/v1/products/*
 
 
 
@@ -103,7 +103,7 @@ Las solicitudes son exclusivamente de tipo GET, no fue solicitado la implementac
 
 Devuelve un array con todos los productos en la base de datos.
 
-Ejemplo *https://bsale-backend-ic8a.onrender.com/v1/products*
+Ejemplo *https://bsalebackend-production-47f1.up.railway.app/v1/products*
 
 ### GET: Obtener categorías
 
@@ -111,7 +111,7 @@ Ejemplo *https://bsale-backend-ic8a.onrender.com/v1/products*
 
 Devuelve un array con todas las categorias en la base de datos.
 
-Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/categories/*
+Ejemplo: *https://bsalebackend-production-47f1.up.railway.app/v1/categories/*
 
 ### GET: Obtener productos por categoría
 
