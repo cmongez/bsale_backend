@@ -119,7 +119,8 @@ Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/categories/*
 
 Devuelve un array con todos los productos que tengan el `id` solicitado como parametro en la petición.
 
-Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/category/1*
+Ejemplo: *https://bsalebackend-production-47f1.up.railway.app/v1/products/category/1*
+
 
 ### GET: Obtener productos por nombre
 
@@ -127,7 +128,7 @@ Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/category/1*
 
 Devuelve un array con todos los productos que incluyan el o los caracteres ingresados como parametro `products`.
 
-Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/pa*
+Ejemplo: *https://bsalebackend-production-47f1.up.railway.app/v1/products/pa*
 
 ### GET: Obtener categorias por nombre
 
@@ -135,7 +136,7 @@ Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/pa*
 
 Devuelve un array con todos las categorias que incluyan el o los caracteres ingresados como parametro `categories`.
 
-Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/categories/vodka/*
+Ejemplo: *https://bsalebackend-production-47f1.up.railway.app/v1/categories/vodka/*
 
 ### GET: Obtener productos por paginación
 
@@ -143,7 +144,7 @@ Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/categories/vodka/*
 
 Devuelve un array con 10 productos dependiendo del parametro `page`.
 
-Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/page/1*
+Ejemplo: *https://bsalebackend-production-47f1.up.railway.app/v1/products/page/1*
 
 # Experiencia Bsale
 Al desarrollar la API REST solicitada solidifique muchos de los conocimientos que tenia sobre las buenas practicas a la hora de crear APIs asi como tambien la manera en la que deben ser estructuradas las carpetas del proyecto y los distintos tipos de programación (Orientada a objetos, estructurada etc). El primer paso realizado fue crear la estructura de carpetas y archivos necesarios que debia utilizar. Decidi hacerlo separando servicios, controladores y rutas, ademas, utilicé Knex.js como query builder.
