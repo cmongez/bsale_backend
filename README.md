@@ -1,7 +1,7 @@
 ## CHALLENGE BSale - Back End (API REST)
 <cemter><img src="https://i.ibb.co/cLTtjZx/bsale.png" width="70%" /></center>
 
-https://bsalebackend-production-47f1.up.railway.app/v1/products
+https://bsale-backend-ic8a.onrender.com/v1/products
 
 
 
@@ -19,7 +19,7 @@ Realizado con Node.JS, Express.JS, JavaScript y MySql.
 Desarrollado utilizando  **Node.JS**, **Express.JS**, **Knex**, **JavaScript** and **MySql**. Donde se realiza una llamada a la base de datos a través de diferentes puntos finales utilizando una solicitud HTTP de tipo **GET** para obtener la información que se solicita  desde el cliente
 
 ### Deploy: 
-Ejemplo: *https://bsalebackend-production-47f1.up.railway.app/v1/products/*
+Ejemplo: *https://bsale-backend-ic8a.onrender.com/v1/products/*
 
 
 
